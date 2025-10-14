@@ -1,0 +1,7 @@
+Un semnal este digitizat cu o frecvent, ˘a de es, antionare de 2000
+Care este intervalul de timp ˆıntre dou˘a es, antioane?
+1/2000 secunde
+Dac˘a un es, antion este memorat pe 4 bit, i, cˆat, i bytes vor ocupa 1 or˘a
+de achizit, ie?
+2000*60*60*4/8=3600000
+(sample/s)*(60s/m)*(60*m/h)*(4biti)/(8biti/byte)
