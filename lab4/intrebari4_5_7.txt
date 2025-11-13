@@ -1,0 +1,4 @@
+4.   200*2 hz=400 hz
+5.   Cuvintele sunt in mare parte diferentiabile cu vocalele similare nefiind ex(o,ă)
+7.   SNR=P_semnal/P_Zgomot
+P_zgomot=P_semnal/SNR=90/80=9/8
