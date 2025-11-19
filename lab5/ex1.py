@@ -68,3 +68,6 @@ plt.show()
 Putem sa calculam data exacta folosindu-ne de patternurile din weekend pentru a delimita saptamaniile, ratele de utilizare specifice in zilele de sarbatoare, cat si statistic numarul de masini care ar putea trece pentru a afla anul.
 Pentru calcului in cadrul unui oras putem sa calculam anul aproximativ folosindu-ne de numarul de masini din oras
 '''
+#g)
+x2=np.convolve(x,[1]*ZI*7)
+print(x2)
