@@ -1,0 +1,3 @@
+[submodule "jpeg"]
+	path = jpeg
+	url = https://github.com/buciuMT/jpeg

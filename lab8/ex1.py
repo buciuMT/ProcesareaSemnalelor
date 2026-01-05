@@ -34,7 +34,7 @@ plt.legend(["np.correlate",'corelation with convolve'])
 plt.show()
 plt.savefig("b.pdf")
 
-def find_x(signal,p,m):
+def find_x(signal:np.ndarray,p:int,m:int):
     #m - orizontul de timp
     #y - signal
     #y=Y*x
@@ -66,9 +66,9 @@ for p in range(2,20):
     for m in range(100,900,10):
         x=find_x(signal,p,m);
         predicted=predict_next(signal[:-1],x)
-       #plt.plot(signal[1:])
-       #plt.plot(predicted)
-       #plt.show()
+        plt.plot(signal[1:])
+        plt.plot(predicted)
+        plt.show()
         err=sum((signal[p:]-predicted)**2)/N
         if err<best[0]:
             best=(err,p,m)
