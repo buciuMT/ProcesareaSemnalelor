@@ -1,0 +1,8 @@
+.direnv
+flake.lock
+paper/*.aux
+paper/*log
+paper/*.out
+paper/*.toc
+paper/*.run.xml
+paper/*.bcf

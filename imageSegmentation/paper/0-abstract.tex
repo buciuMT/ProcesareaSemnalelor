@@ -1,0 +1,27 @@
+\begin{abstractpage}
+
+	\begin{abstract}{romanian}
+		Această lucrare analizează comparativ performanța unor metode clasice și a unor modele Deep Learning pentru segmentarea imaginilor la nivel de obiect.
+		Sunt evaluate două metode clasice, de tip clustering, K-Means și Mean-Shift, precum și două rețele neuronale: U-Net și Slot Attention. Experimentele sunt realizate pe setul de date
+		Tetrominoes din colecția Multi-Object Datasets, utilizând metrica Adjusted Rand Index (ARI) pentru evaluarea calității segmentării.
+
+		Rezultatele experimentale arata faptul că metodele clasice, în special Mean-Shift Segmentation, obtin performanțe superioare modelelor de Deep Learning în contextul
+		acestui set de date. În mod surprinzător, arhitectura Slot Attention, atât în varianta supervizată,
+		cât și în cea nesupervizată, înregistrează cele mai scăzute scoruri, în ciuda resurselor de antrenare superioare. De asemenea, performanța modelului U-Net sugerează apariția fenomenului
+		de supraînvățare, indicând o capacitate limitată de generalizare.
+
+		Analiza rezultatelor sugerează că simplitatea și dimensiunea redusă a setului de date favorizează metodele clasice de segmentare, în timp ce modelele DeepLearning performează sub așteptari.
+	\end{abstract}
+
+	\begin{abstract}{english}
+		This paper presents a comparative analysis of classical methods and Deep Learning models for object-level image segmentation.
+		Two classical clustering methods, K-Means and Mean-Shift, as well as two neural network architectures, U-Net and Slot Attention,
+		are evaluated. Experiments are conducted on the Tetrominoes dataset from the Multi-Object Datasets collection, using the
+		Adjusted Rand Index (ARI) to assess segmentation quality.
+		Experimental results indicate that classical methods, particularly Mean-Shift Segmentation, achieve superior performance compared to Deep Learning models on this dataset.
+		Surprisingly, the Slot Attention architecture, both in its supervised and unsupervised variants, records the lowest scores despite having greater training resources.
+		Additionally, the performance of the U-Net model suggests the presence of overfitting.
+		The analysis suggests that the simplicity and small size of the dataset favor classical segmentation methods, while Deep Learning models underperform relative to expectations.
+	\end{abstract}
+
+\end{abstractpage}

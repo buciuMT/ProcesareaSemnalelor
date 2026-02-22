@@ -1,0 +1,25 @@
+\section{Introducere}
+
+\subsection{Motivație}
+
+Algoritmi de segmentarea imaginilor au ca scop împărțirea unei imagini in segmente la nivelul pixelilor,
+creând măști, ce folosesc pentru rezolvarea unor alte probleme, cum ar fi pentru crearea unui sistem de condus autonom
+sau analiza imaginilor medicale.
+Această împărțire poate fi semantică unde fiecare pixel primește clasa tipului de conținut pe care o reprezintă
+sau în functie de obiect, unde fiecare obiect din imagine are atribuit o clasă, chiar dacă există mai multe obiecte de acelasi tip.
+
+
+Diferența principală între detectarea de obiecte și segmentarea imaginilor la nivel de obiecte este generarea măstilor.
+Astfel orice algoritm de segmentare a imaginilor la nivel de obiecte este și un algoritm de detectare a obiectelor, însă reciproca nu este adevarată
+
+
+Astfel în această lucrare urmează să analizez mai multe metode de segmentare a imaginilor, in special cele la nivel de obiect, în scopul determinării valabilității algoritmului Slot Attention.
+
+\subsection{Concepte abordate}
+
+Această lucrare v-a evalua:
+
+\begin{itemize}
+  \item \textbf{Metode Clasice} K-means clustering, Mean-Shift Segmentation
+  \item \textbf{Metode DeepLearning} U-Net, Slot Attention
+\end{itemize}

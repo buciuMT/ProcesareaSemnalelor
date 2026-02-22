@@ -1,3 +1,6 @@
 [submodule "jpeg"]
 	path = jpeg
 	url = https://github.com/buciuMT/jpeg
+[submodule "imageSegmentation/dump/ImageSegmentation"]
+	path = imageSegmentation/dump/ImageSegmentation
+	url = https://github.com/buciuMT/ImageSegmentation
